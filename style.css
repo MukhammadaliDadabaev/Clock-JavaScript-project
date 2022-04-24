@@ -16,16 +16,24 @@ body {
   align-items: center;
   color: aliceblue;
 }
+@media (max-width: 770.77px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 @media (max-width: 540.77px) {
   html {
     font-size: 80%;
   }
 }
+
 @media (max-width: 425.77px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
 }
+
 @media (max-width: 280.77px) {
   html {
     font-size: 25%;

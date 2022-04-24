@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #251c31;
+  font-family: 'Courier New', Courier, monospace;
+}
+.clock {
+  height: 100vh;
+  font-size: 9rem;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+@media (max-width: 540.77px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media (max-width: 425.77px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 280.77px) {
+  html {
+    font-size: 25%;
+  }
+}
